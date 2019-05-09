@@ -1,0 +1,18 @@
+server:
+  port: 8868
+spring:
+  application:
+    name: iot-platform-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yimin001/iot-platform-config.git
+          search-paths: config
+          username: 540019320@qq.com
+          password: yimin003
+          default-label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka
