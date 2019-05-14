@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yimin001/iot-platform-config.git
+          uri: https://github.com/yimin001/config.git
           search-paths: config
           username: 540019320@qq.com
           password: yimin003
